@@ -1,0 +1,93 @@
+* {
+    color:white;
+    font-size: 22px;
+    font-family: 'Righteous', cursive;
+}
+img {
+    width: 60%;
+    height: 60%;
+}
+#results {
+  align-content: center;
+  padding: 5px;
+  margin-left: 50px;
+}
+body {
+    font-size: 16px;
+    background-color: black;
+    color: #ffffff;
+    line-height: 24px;
+    background-image: url("https://cdn.pixabay.com/photo/2016/06/05/07/59/stars-1436950_960_720.jpg")
+}
+h1 {
+        margin-top: 3px;    
+    color: yellow;
+        padding: 3px;
+        display: grid;
+        transition: all .5s;
+        user-select: none;
+        background: linear-gradient(to bottom, white, black);
+        animation-duration: 1.5s;
+        animation-name: slidein;
+      }
+p {
+    padding: 15px; 
+    margin-left: 75px;
+    color: white;
+}
+h3 {
+  align-content: center;
+  padding: 15px;
+  margin-left: 50px;
+}
+.text-center {
+        font-family: 'Special Elite', cursive;
+    }
+.container {
+    border: 2px solid white;
+    width: 50%;
+    height: 50%;
+    color: white;
+    background-color: black;
+    box-shadow: 15px 15px 15px 15px rgba(0, 0 , 0, 0.5);
+
+    padding: 30px;
+}
+
+  /* Animations */
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  /* Header Animation */
+@keyframes bounceIn {
+    0% {
+      transform: scale(0.1);
+      opacity: 0;
+    }
+    60% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .last-seconds{
+    color: red;
+  }
+  .option{
+    margin: 15px;
+  }
+  .text-muted{
+    color: white;
+  }
